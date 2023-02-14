@@ -1,0 +1,9 @@
+{
+  "name": "personalwebpage",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "*"
+  }
+}

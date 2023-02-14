@@ -1,0 +1,54 @@
+.text_frame {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+  border: 2px gray solid;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-family: "Trebuchet MS", "sans-serif";
+  width: 30%;
+  font-size: x-large;
+  color: black;
+  text-align: right;
+  padding: 1em;
+}
+
+td {
+  font-family: "Arial","sans-serif";
+  text-align: left;
+  overflow: hidden;
+}
+
+td a:link {
+  text-decoration: none;
+  color: black;
+}
+
+td a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+td a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  h1, th, td {
+    font-size: small;
+  }
+  th {
+    width: 30%;
+  }
+}

@@ -1,0 +1,51 @@
+.main_container {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 0px;
+  border: 2px gray solid;
+  border-radius: 10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  position: relative;
+}
+
+h1 {
+  text-align: right;
+}
+
+h2 {
+  font-family: "Arial","sans-serif";
+  font-size: xx-large;
+  flex: 4;
+  text-align: right;
+}
+
+p {
+  font-family: "Arial","sans-serif";
+  font-size: large;
+  flex: 6;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 5px 10px 5px 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+p a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  h1, h2 {
+    font-size: small;
+  }
+
+  .main_container {
+    flex-direction: column;
+  }
+}

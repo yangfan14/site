@@ -1,0 +1,86 @@
+.cv_container {
+  background-color: whitesmoke;
+  padding: 10px 0px 10px 0px;
+  border: 2px gray solid;
+  border-radius: 10px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.my_part {
+  background-color: rgb(210, 204, 204);
+  padding: 5px;
+  width: 95%;
+  margin: 10px;
+  line-height: 25px;
+  text-align: center;
+  box-shadow: 5px 5px 1px 1px rgb(33 33 182 / 20%);
+}
+
+table {
+  width: 100%;
+}
+
+tbody {
+  color: black;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "sans-serif";
+  background-color: rgb(225 166 166);
+  padding: 5px;
+  margin: 15px 0px 0px 0px;
+  border: 2px #3d4c6a solid;
+  border-radius: 5px;
+  color: black;
+}
+
+th {
+  font-family: "Arial","sans-serif";
+  width: 40%;
+  font-size: large;
+  color: black;
+  padding: 1em;
+}
+
+td {
+  font-family: "Arial","sans-serif";
+  text-align: left;
+}
+
+td:hover {
+  background-color: gray;
+}
+
+th:hover {
+  background-color: gray;
+}
+
+@media screen and (max-width: 600px) {
+  h1, h3, td {
+    font-size: small;
+  }
+  
+  .cv_container {
+    padding: 0px;
+  }
+
+  .my_part {
+    box-shadow: none;
+  }
+
+  th {
+    width: 40%;
+    font-size: small;
+    padding: 0em;
+  }
+}
